@@ -1,0 +1,522 @@
+
+/* =====================================================
+   RADIO GRACIA HN
+   DISEÑO RESPONSIVE 2026
+   Adaptación para tabletas y teléfonos móviles
+===================================================== */
+
+
+/* =====================================================
+   1. PANTALLAS MEDIANAS - PORTÁTILES Y TABLETAS
+===================================================== */
+
+@media (max-width: 1100px) {
+
+    .header-container {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .brand-logo {
+        width: 85px;
+        height: 85px;
+    }
+
+    .brand-text h1 {
+        font-size: 27px;
+    }
+
+    .main-navigation {
+        gap: 8px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 12px 7px;
+    }
+
+    .hero-content h2 {
+        font-size: 50px;
+    }
+
+    .sponsors-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+/* =====================================================
+   2. TABLETAS
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .section-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-heading {
+        margin-bottom: 35px;
+    }
+
+    .section-heading h2 {
+        font-size: 28px;
+    }
+
+
+    /* ENCABEZADO */
+
+    .header-container {
+        padding: 18px 20px 0;
+    }
+
+    .brand {
+        gap: 14px;
+        padding-bottom: 20px;
+    }
+
+    .brand-logo {
+        width: 75px;
+        height: 75px;
+        border-radius: 14px;
+    }
+
+    .brand-text h1 {
+        font-size: 24px;
+    }
+
+    .brand-text p {
+        font-size: 13px;
+    }
+
+    .main-navigation {
+        min-height: auto;
+        padding: 12px 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px 12px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 9px 8px;
+    }
+
+    .header-actions {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+
+    /* PORTADA */
+
+    .hero-section {
+        min-height: 480px;
+    }
+
+    .hero-overlay {
+        padding: 65px 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 43px;
+    }
+
+    .hero-slogan {
+        font-size: 20px;
+    }
+
+    .hero-location {
+        font-size: 17px;
+        flex-wrap: wrap;
+    }
+
+
+    /* SECCIONES */
+
+    .welcome-section,
+    .player-section,
+    .mission-section,
+    .chat-section,
+    .sponsors-section,
+    .contact-section {
+        padding: 65px 0;
+    }
+
+    .community-section {
+        padding: 60px 0;
+    }
+
+    .welcome-content p {
+        font-size: 16px;
+    }
+
+    .mission-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .mission-card {
+        padding: 32px 28px;
+    }
+
+    .visitor-counter-container {
+        gap: 15px;
+    }
+
+    .sponsors-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coverage-section {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+/* =====================================================
+   3. TELÉFONOS MÓVILES
+===================================================== */
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .section-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .section-heading h2 {
+        font-size: 25px;
+    }
+
+    .section-subtitle {
+        font-size: 11px;
+        letter-spacing: 1.5px;
+    }
+
+
+    /* ENCABEZADO */
+
+    .header-container {
+        padding: 15px 15px 0;
+    }
+
+    .brand {
+        gap: 12px;
+        padding-bottom: 18px;
+    }
+
+    .brand-logo {
+        width: 65px;
+        height: 65px;
+        padding: 5px;
+        border-radius: 12px;
+    }
+
+    .brand-text h1 {
+        font-size: 19px;
+        letter-spacing: 0;
+    }
+
+    .brand-text p {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .main-navigation {
+        padding: 12px 0;
+        gap: 4px 8px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding: 8px 7px;
+    }
+
+    .header-actions {
+        gap: 12px;
+    }
+
+    .social-links {
+        gap: 9px;
+    }
+
+    .social-links a {
+        width: 33px;
+        height: 33px;
+        font-size: 13px;
+    }
+
+    .install-button {
+        font-size: 11px;
+        padding: 9px 13px;
+    }
+
+
+    /* PORTADA */
+
+    .hero-section {
+        min-height: 440px;
+        background-position: center;
+    }
+
+    .hero-overlay {
+        padding: 55px 16px;
+    }
+
+    .hero-label {
+        font-size: 10px;
+        padding: 7px 13px;
+        letter-spacing: 1.3px;
+        margin-bottom: 18px;
+    }
+
+    .hero-content h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .hero-slogan {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 22px;
+    }
+
+    .hero-location {
+        font-size: 15px;
+        gap: 7px;
+    }
+
+    .hero-city {
+        font-size: 13px;
+    }
+
+    .hero-status {
+        font-size: 11px;
+        padding: 8px 14px;
+        margin-top: 20px;
+    }
+
+    .hero-button {
+        font-size: 13px;
+        padding: 13px 23px;
+        margin-top: 24px;
+    }
+
+
+    /* SECCIONES */
+
+    .welcome-section,
+    .player-section,
+    .mission-section,
+    .chat-section,
+    .sponsors-section,
+    .contact-section {
+        padding: 50px 0;
+    }
+
+    .community-section {
+        padding: 50px 0;
+    }
+
+    .welcome-content p {
+        font-size: 15px;
+        line-height: 1.8;
+        margin-bottom: 16px;
+    }
+
+    .mission-card {
+        padding: 27px 22px;
+    }
+
+    .mission-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+    }
+
+    .mission-card h2 {
+        font-size: 21px;
+    }
+
+    .mission-card p {
+        font-size: 14px;
+    }
+
+
+    /* VISITANTES */
+
+    .visitor-counter-container {
+        grid-template-columns: 1fr;
+        max-width: 320px;
+        gap: 15px;
+    }
+
+    .visitor-counter {
+        padding: 22px;
+    }
+
+    .visitor-counter i {
+        font-size: 26px;
+    }
+
+    .visitor-counter strong {
+        font-size: 28px;
+    }
+
+
+    /* CHAT */
+
+    #radio-chat-container {
+        margin-top: 25px;
+    }
+
+
+    /* PATROCINADORES */
+
+    .coverage-section {
+        margin-bottom: 40px;
+    }
+
+    .coverage-section h3,
+    .sponsors-content h3 {
+        font-size: 19px;
+    }
+
+    .coverage-logo {
+        padding: 22px 16px;
+    }
+
+    .coverage-logo p {
+        font-size: 17px;
+    }
+
+    .sponsors-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .sponsor-item {
+        padding: 15px 10px;
+    }
+
+    .sponsor-item img {
+        max-height: 70px;
+    }
+
+
+    /* CONTACTO */
+
+    .contact-section .section-container > p {
+        font-size: 14px;
+    }
+
+    .contact-social-links {
+        gap: 13px;
+        flex-wrap: wrap;
+    }
+
+    .contact-social-links a {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+
+    /* PIE DE PÁGINA */
+
+    .site-footer {
+        padding: 42px 18px 28px;
+    }
+
+    .footer-content h2 {
+        font-size: 19px;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+
+    .footer-content .copyright {
+        font-size: 12px;
+    }
+
+}
+
+
+/* =====================================================
+   4. TELÉFONOS MUY PEQUEÑOS
+===================================================== */
+
+@media (max-width: 360px) {
+
+    .brand-logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .brand-text h1 {
+        font-size: 17px;
+    }
+
+    .brand-text p {
+        font-size: 10px;
+    }
+
+    .hero-content h2 {
+        font-size: 29px;
+    }
+
+    .hero-slogan {
+        font-size: 15px;
+    }
+
+    .nav-link {
+        font-size: 11px;
+        padding: 7px 5px;
+    }
+
+    .sponsors-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* =====================================================
+   5. ACCESIBILIDAD Y MOVIMIENTO REDUCIDO
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+}
+
+
+/* =====================================================
+   FIN DE RESPONSIVE.CSS
+===================================================== */
